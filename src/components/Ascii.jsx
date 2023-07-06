@@ -21,6 +21,10 @@ const Ascii = () => {
             maxDistance={0.8}
             />
         </ThreeScene>
+        <div className="header-text">
+          <h1 className="main-headline">Hi, I'm Hector Rivera</h1>
+          <p className="main-p">// Developer and Designer based in El Salvador.</p>
+        </div>
     </div>
   )
 }
