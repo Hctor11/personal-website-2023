@@ -1,4 +1,5 @@
 import "./Styles/TitleCard.css";
+import SliderLogo from "./SliderLogo";
 
 const TitleCard = () => {
   return (
@@ -30,6 +31,10 @@ const TitleCard = () => {
           ensuring that every interaction with a digital product or application
           is intuitive, visually appealing, and enhances the user's overall experience.
         </p>
+      </div>
+      <div className="logo-slide">
+      <h3 className="main-title">// Technologies</h3>
+      <SliderLogo></SliderLogo>
       </div>
     </div>
   );

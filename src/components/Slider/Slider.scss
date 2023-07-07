@@ -1,0 +1,24 @@
+$n:2;
+
+.slider  {
+    --d: 30s; /* duration */
+    display: grid;
+}
+
+.slider > img {
+    grid-area: 1/1;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+    animation: r var(--d) linear infinite;
+    padding: 15px;
+  }
+
+@for $i from 2 to ($n + 1) {
+    .slider > img:nth-child(#{$i}) {animation-delay: calc(#{(1 - $i)/$n}*var(--d))}
+}
+
+@keyframes r {
+    #{100*($n - 1)/$n}% {transform: translate((1 - $n)*100%)}
+    #{100*($n - 1)/$n + .01}% {transform: translate(100%)}
+}
+  

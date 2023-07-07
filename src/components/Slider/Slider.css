@@ -1,0 +1,26 @@
+.slider {
+  --d: 30s; /* duration */
+  display: grid;
+}
+
+.slider > img {
+  grid-area: 1/1;
+  aspect-ratio: 1.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+  animation: r var(--d) linear infinite;
+  padding: 15px;
+}
+
+.slider > img:nth-child(2) {
+  animation-delay: calc(-0.5*var(--d));
+}
+
+@keyframes r {
+  50% {
+    transform: translate(-100%);
+  }
+  50.01% {
+    transform: translate(100%);
+  }
+}/*# sourceMappingURL=Slider.css.map */
