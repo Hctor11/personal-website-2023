@@ -28,15 +28,7 @@ const TitleCard = () => {
           embrace the challenge of crafting seamless user experiences. The art
           of interface design allows me to blend aesthetics with functionality,
           ensuring that every interaction with a digital product or application
-          is intuitive, visually appealing, and enhances the user's overall
-          experience.
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-          accusantium corporis vitae voluptates reiciendis odit, nam consectetur
-          sed sapiente ipsa nemo suscipit saepe, necessitatibus repudiandae
-          doloremque consequatur consequuntur quia voluptas, enim animi cum.
-          Quod excepturi maiores illo inventore eos id!
+          is intuitive, visually appealing, and enhances the user's overall experience.
         </p>
       </div>
     </div>
