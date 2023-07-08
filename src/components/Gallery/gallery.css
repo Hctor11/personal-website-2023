@@ -1,0 +1,34 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 10px;
+  margin: 5px;
+}
+.gallery .gal1 {
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+  background-size: cover;
+}
+.gallery .bottom-container {
+  display: flex;
+  justify-content: cneter;
+  gap: 10px;
+}
+.gallery .bottom-container .gal2, .gallery .bottom-container .gal3 {
+  width: 50%;
+  height: 200px;
+  background-color: #fff;
+  background-size: cover;
+}
+
+.gal1, .gal2, .gal3 {
+  border: 2px solid #fff;
+  filter: grayscale(100%);
+  transition: 0.5s ease-in-out;
+}
+
+.gal1:hover, .gal2:hover, .gal3:hover {
+  filter: grayscale(0%);
+}/*# sourceMappingURL=gallery.css.map */

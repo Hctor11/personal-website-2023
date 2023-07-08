@@ -1,5 +1,6 @@
 import "./Styles/TitleCard.css";
 import SliderLogo from "./SliderLogo";
+import Gallery from "./Gallery";
 
 const TitleCard = () => {
   return (
@@ -35,6 +36,10 @@ const TitleCard = () => {
       <div className="logo-slide">
       <h3 className="main-title">// Technologies</h3>
       <SliderLogo></SliderLogo>
+      </div>
+      <div className="selected-works-gallery">
+      <h3 className="main-title">// Selected Works</h3>
+      <Gallery/>
       </div>
     </div>
   );

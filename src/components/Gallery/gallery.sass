@@ -1,0 +1,34 @@
+
+.gallery
+    display: flex
+    flex-direction: column
+    justify-items: center
+    gap: 10px
+    margin: 5px
+
+    .gal1
+        width: 100%
+        height: 200px
+        background-color: #fff
+        background-size: cover
+    
+    .bottom-container
+        display: flex
+        justify-content: cneter
+        gap: 10px
+
+        .gal2, .gal3
+            width: 50%
+            height: 200px
+            background-color: #fff
+            background-size: cover
+
+
+
+.gal1, .gal2, .gal3
+    border: 2px solid #fff
+    filter: grayscale(100%)
+    transition: .5s ease-in-out
+
+.gal1:hover, .gal2:hover, .gal3:hover
+    filter: grayscale(0%)
