@@ -10,15 +10,27 @@ const Gallery = () => {
       <div className="gal1" style={{
         backgroundImage: `url(${gal1})`
       }}>
-
+        <a href="https://www.behance.net/gallery/174574421/Sputnik" target="_blank" className="link">
+                # Sputnik
+            </a>
       </div>
       <div className="bottom-container">
-        <div className="gal2" style={{
-            backgroundImage: `url(${gal2})`
-        }}></div>
+        <div 
+            className="gal2" style={{
+                backgroundImage: `url(${gal2})`
+            }}
+        >
+            <a href="https://dribbble.com/shots/20799312-Antares-Design-Studio-header-page" target="_blank" className="link">
+                # Antares
+            </a>
+        </div>
         <div className="gal3" style={{
         backgroundImage: `url(${gal3})`
-      }}></div>
+      }}>
+        <a href="https://dribbble.com/shots/21773263-Tech-eCommerce-Landing-page" target="_blank" className="link">
+                # tech-commerce
+            </a>
+      </div>
       </div>
     
     </div>

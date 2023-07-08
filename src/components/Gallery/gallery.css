@@ -25,10 +25,19 @@
 
 .gal1, .gal2, .gal3 {
   border: 2px solid #fff;
-  filter: grayscale(100%);
+  filter: grayscale(100%) opacity(0.5);
   transition: 0.5s ease-in-out;
 }
 
 .gal1:hover, .gal2:hover, .gal3:hover {
   filter: grayscale(0%);
+}
+
+.link {
+  display: inline-block;
+  font-weight: bolder;
+  margin: 15px;
+  text-decoration: none;
+  color: #FF8811;
+  text-shadow: 5px 5px 5px #000;
 }/*# sourceMappingURL=gallery.css.map */
