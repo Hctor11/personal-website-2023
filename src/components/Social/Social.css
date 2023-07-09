@@ -1,0 +1,18 @@
+.social {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-ico {
+  display: flex;
+  align-items: center;
+}
+
+.link-social {
+  margin: 10px;
+  font-size: 12px;
+  color: #fff;
+}/*# sourceMappingURL=Social.css.map */

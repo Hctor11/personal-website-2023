@@ -1,6 +1,7 @@
 import "./Styles/TitleCard.css";
 import SliderLogo from "./SliderLogo";
 import Gallery from "./Gallery";
+import SocialMedia from "./SocialMedia";
 
 const TitleCard = () => {
   return (
@@ -41,6 +42,12 @@ const TitleCard = () => {
       <h3 className="main-title">// Selected Works</h3>
       <Gallery/>
       </div>
+      <div className="contact">
+        <h3 className="main-title">// Get in touch</h3>
+        <a href="mailto:hectorriverag222@gmail.com" className="contact-button">Click here to contact me</a>
+      </div>
+      <h3 className="main-title">// Social</h3>
+      <SocialMedia/>
     </div>
   );
 };
