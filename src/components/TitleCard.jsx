@@ -2,6 +2,7 @@ import "./Styles/TitleCard.css";
 import SliderLogo from "./SliderLogo";
 import Gallery from "./Gallery";
 import SocialMedia from "./SocialMedia";
+import Footer from "./Footer";
 
 const TitleCard = () => {
   return (
@@ -48,6 +49,7 @@ const TitleCard = () => {
       </div>
       <h3 className="main-title">// Social</h3>
       <SocialMedia/>
+      <Footer/>
     </div>
   );
 };
