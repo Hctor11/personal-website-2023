@@ -9,19 +9,19 @@ const SocialMedia = () => {
     <div className="social">
       <div className="lnkdin social-ico">
       <img src={linkedin} alt="linkedin logo" />
-        <a href="#" className="link-social">linkedIn</a>
+        <a href="https://linkedin.com/in/hectorrivera222" target="_blank" className="link-social">linkedIn</a>
       </div>
       <div className="dribbble social-ico">
       <img src={dribbble} alt="dribbble logo" />
-        <a href="#" className="link-social">Dribbble</a>
+        <a href="https://dribbble.com/HectorRivera222" target="_blank" className="link-social">Dribbble</a>
       </div>
       <div className="behance social-ico">
       <img src={behance} alt="behance logo" />
-        <a href="#" className="link-social">Behance</a>
+        <a href="https://www.behance.net/hctorrivera3" target="_blank" className="link-social">Behance</a>
       </div>
       <div className="github social-ico">
       <img src={github} alt="github logo" />
-        <a href="#" className="link-social">GitHub</a>
+        <a href="https://github.com/Hctor11" target="_blank" className="link-social">GitHub</a>
       </div>
     </div>
   );

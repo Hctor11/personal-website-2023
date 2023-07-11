@@ -8,18 +8,18 @@ const TitleCard = () => {
   return (
     <div className="title-card">
       <h1 className="main-title">Hi, I'm Hector Rivera</h1>
-      <p className="main-desc">
+      <p className="main-desc desc">
         // Developer and Designer based in El Salvador.
       </p>
 
       <div className="about">
         <h3 className="main-title">// About me</h3>
-        <p>
+        <p className="desc">
           My name is Hector Rivera, and I am thrilled to share with you my story
           as a resident of the beautiful country of El Salvador, and my love for
           programming, graphic design, and interface design.
         </p>
-        <p>
+        <p className="desc">
           Growing up surrounded by the breathtaking landscapes and vibrant
           culture of El Salvador, I have developed a keen eye for beauty and an
           appreciation for the intricacies of design. It is within this rich
@@ -27,7 +27,7 @@ const TitleCard = () => {
           have discovered the power of algorithms, unlocking endless
           possibilities and crafting solutions to real-world problems.
         </p>
-        <p>
+        <p className="desc">
           Additionally, I am drawn to the world of interface design, where I
           embrace the challenge of crafting seamless user experiences. The art
           of interface design allows me to blend aesthetics with functionality,
