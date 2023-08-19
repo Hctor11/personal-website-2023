@@ -15,24 +15,13 @@ const TitleCard = () => {
       <div className="about">
         <h3 className="main-title">// About me</h3>
         <p className="desc">
-          My name is Hector Rivera, and I am thrilled to share with you my story
-          as a resident of the beautiful country of El Salvador, and my love for
-          programming, graphic design, and interface design.
+          My name is Hector Rivera, I am 18 years old and I like a to learn new things. My favorite hobbies are Mathematics, physics, graphics design and generative art.
         </p>
         <p className="desc">
-          Growing up surrounded by the breathtaking landscapes and vibrant
-          culture of El Salvador, I have developed a keen eye for beauty and an
-          appreciation for the intricacies of design. It is within this rich
-          environment that my creativity has flourished. Through programming, I
-          have discovered the power of algorithms, unlocking endless
-          possibilities and crafting solutions to real-world problems.
+          I am from Acajulta, a tiny city near the beach in El Salvador. I like a lot the warm landscapes and the beautiful ocean. 
         </p>
         <p className="desc">
-          Additionally, I am drawn to the world of interface design, where I
-          embrace the challenge of crafting seamless user experiences. The art
-          of interface design allows me to blend aesthetics with functionality,
-          ensuring that every interaction with a digital product or application
-          is intuitive, visually appealing, and enhances the user's overall experience.
+          I really like to read books about astronomy, spaceships and the aesthetics that involve everything about engineering, so is quite common to see this type of aesthetics and inspiration from my personal proyects.
         </p>
       </div>
       <div className="logo-slide">
